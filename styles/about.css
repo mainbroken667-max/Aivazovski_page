@@ -1,0 +1,52 @@
+.about {
+  width: 100%;
+  background-color: var(--bg-main-gray);
+  padding: 60px 30px 100px 30px;
+  text-align: center;
+}
+
+.about p,
+h2,
+h4 {
+  color: var(--font-color-black);
+}
+
+.about-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 42px 0;
+}
+
+.about-info-ru,
+.about-info-en {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto 15px auto;
+  max-width: 780px;
+}
+
+.about-discription-ru,
+.about-discription-en {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto 15px auto;
+  text-align: justify;
+  max-width: 780px;
+}
+
+.about-info-en {
+  margin: 15px auto 15px auto;
+}
+
+.about-discription-en {
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .about-info-ru,
+  .about-info-en,
+  .about-discription-ru,
+  .about-discription-en {
+    font-size: 14px;
+  }
+}
