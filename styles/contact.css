@@ -10,6 +10,9 @@
 }
 
 .btn-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 211px;
   height: 42px;
   font-size: 24px;
@@ -17,7 +20,7 @@
   background-color: var(--color-main-black);
   border-radius: 21px;
   border: none;
-  margin: 75px 0 40px 0;
+  margin: 75px auto 40px auto;
 }
 
 .btn-contact:hover {
